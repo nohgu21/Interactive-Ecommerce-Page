@@ -40,7 +40,7 @@ const ProductPage: React.FC = () => {
     <>
       <div className="box-border">
         <Navbar cart={cart} setCart={setCart} />
-        <hr className="m-auto w-385 text-[hsl(220,14%,75%)]"></hr>
+        <hr className="m-auto w-[92%] text-[hsl(220,14%,75%)]"></hr>
         
         {/*Desktop*/}
         <div className="hidden md:flex flex-row">
@@ -53,7 +53,7 @@ const ProductPage: React.FC = () => {
                 onClick={() => setIsLightboxOpen(true)}
               />
             </div>
-            <div className="flex flex-row justify-between -mt-28 scale-80 scale-50">
+            <div className="grid grid-cols-4 -mt-28 scale-80 scale-50">
               {product.thumbnail.map((thumb, index) => (
                 <img
                   key={index}
