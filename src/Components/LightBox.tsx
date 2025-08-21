@@ -40,7 +40,7 @@ const Lightbox: React.FC<LightboxProps> = ({
        
         <button 
           onClick={onClose}
-          className="absolute -top-10 right-0 text-white text-2xl hover:text-orange-500 transition-colors"
+          className="absolute -top-8 right-0 text-white hover:orange-500 text-2xl cursor-pointer"
         >
           <img src={Close}/>
         </button>

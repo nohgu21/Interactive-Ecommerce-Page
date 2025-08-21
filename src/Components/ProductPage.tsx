@@ -53,14 +53,14 @@ const ProductPage: React.FC = () => {
                 onClick={() => setIsLightboxOpen(true)}
               />
             </div>
-            <div className="grid grid-cols-4 -mt-28 scale-80 scale-50">
+            <div className="grid grid-cols-4 gap-6 -mt-25 scale-76">
               {product.thumbnail.map((thumb, index) => (
                 <img
                   key={index}
                   src={thumb}
                   alt={`${product.name} thumbnail ${index + 1}`}
                   onClick={() => setSelectedImage(index)}
-                  className={`rounded-xl scale-75 px-1 cursor-pointer transition-all hover:opacity-50 ${
+                  className={`rounded-xl px-1 cursor-pointer transition-all hover:opacity-50 ${
                     selectedImage === index
                       ? "border-2 border-[hsl(26,100%,55%)] opacity-50"
                       : "border-2 border-transparent hover:border-[hsl(26,100%,55%)]"
