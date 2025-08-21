@@ -19,7 +19,7 @@ Built with
 - Tailwind CSS for styling
 - Mobile-first responsive design
 - Semantic HTML5 markup
-- Flexbox layout
+- Flexbox and Grid layout
 - Custom React hooks for modal functionality
 
 ### What I learned
