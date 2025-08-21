@@ -53,7 +53,7 @@ const ProductPage: React.FC = () => {
                 onClick={() => setIsLightboxOpen(true)}
               />
             </div>
-            <div className="grid grid-cols-4 gap-6 -mt-25 scale-76">
+            <div className="grid grid-cols-4 gap-6 -mt-20 scale-76">
               {product.thumbnail.map((thumb, index) => (
                 <img
                   key={index}
